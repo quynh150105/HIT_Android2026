@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="view">#A89085</color>
+    <color name="main">#a89f94</color>
+    <color name="btnAc">#E49E7E</color>
+    <color name="action">#97877F</color>
+    <color name="btn_number">#DFD9D4</color>
+    <color name="constaint">#a89085</color>
+</resources>
