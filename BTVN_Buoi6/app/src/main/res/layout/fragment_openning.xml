@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Openning">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logomain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Exflore the app"
+        android:textFontWeight="700"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now yourNow your finances are in one place and always under control"
+        app:layout_constraintStart_toStartOf="@id/textView1"
+        app:layout_constraintEnd_toEndOf="@id/textView1"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        android:width="250dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/btn_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnsignin"
+        app:layout_constraintTop_toBottomOf="@id/content"
+        app:layout_constraintStart_toStartOf="@id/content"
+        app:layout_constraintEnd_toEndOf="@id/content"
+        android:text="Sign in"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="30dp"
+        android:paddingTop="20dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/btn_createAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btncreateacc"
+        app:layout_constraintTop_toBottomOf="@id/btn_signin"
+        app:layout_constraintStart_toStartOf="@id/btn_signin"
+        app:layout_constraintEnd_toEndOf="@id/btn_signin"
+        android:text="Create account"
+        android:textAlignment="center"
+        android:textColor="@color/btnSignin"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="30dp"
+        android:paddingTop="20dp"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
